@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1A0721</color>
+    <color name="colorPrimaryDark">#110812</color>
+    <color name="colorAccent">#90CAF9</color>
+    <color name="introone">#f05053</color>
+    <color name="white">#ffffff</color>
+    <color name="introthree">#00ACC1</color> 
+    <color name="introfour">#02b875</color> 
+    <color name="introfive">#a51b7673</color>
+    <color name="grey">#89949E</color>
+    <color name="greyback">#D9E2E9</color>
+    <color name="background">#fafafa</color>
+    <color name="buttoncolor">#009999</color>
+    <color name="nice">#8BC34A</color>
+    <color name="introtwo">#FFCA28</color>
+    <color name="black">#000000</color>
+    <color name="back">#DCDCDC</color>
+    <color name="textcolor">#EEEEEE</color>
+    <color name="texthintcolor">#606060</color>
+
+</resources>

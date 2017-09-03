@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A0721">
+
+
+    <LinearLayout
+        android:id="@+id/icon"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginBottom="10dp"
+
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/icon"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="35dp"
+        android:id="@+id/usernamepanel"
+        android:layout_below="@+id/icon">
+        <EditText
+            android:layout_width="match_parent"
+
+            android:id="@+id/phno"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="50dp"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:textColorHint="@color/textcolor"
+            android:textColor="@color/textcolor"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/passwordpanel"
+        android:layout_below="@+id/usernamepanel">
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/password"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="20dp"
+            android:inputType="textPassword"
+            android:layout_height="50dp"
+            android:hint="Password"
+
+            android:textColorHint="@color/textcolor"
+            android:textColor="@color/textcolor"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginRight="40dp"
+        android:id="@+id/buttonPanel"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordpanel"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/gradient">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonUserLogin"
+            android:background="?attr/selectableItemBackground"
+            android:text="Login"
+            android:textColor="@color/textcolor" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/toregister"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/buttonPanel">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Don't Have an account yet? Register now."
+            android:gravity="center"
+            android:layout_marginLeft="35dp"
+            android:textSize="18dp"
+            android:textColor="@color/textcolor"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SYS</string>
+    <string name="image">Image</string>
+    <string name="introoneheader">Are time and place an obstacle ? </string>
+    <string name="introonemain">We have got your back!</string>
+    <string name="introtwoheader">Safe and Secure </string>
+    <string name="introtwomain">Feel like home. Anytime, Anywhere.</string>
+    <string name="introthreeheader">Fearful unescorted rides ?</string>
+    <string name="introthreemain">WE ARE ALWAYS HERE FOR YOU !Even if we do not speak, you can count on us.</string>
+    <string name="introfourheader">Worried over routes ?</string>
+    <string name="introfourmain">We direct you through safest routes.</string>
+    <string name="introfivemain">MONITOR</string>
+    <string name="introfivemain1">Location</string>
+    <string name="introfivemain2">Voice</string>
+    <string name="introfivemain3">Anywhere!Anytime!</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
